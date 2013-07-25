@@ -23,6 +23,7 @@ foreach (@ARGV) {
 #    }
 }
 
+my $dateString = gmtime $oldestDate;
 printf "Oldest date is %s, file is %.1f old.\n", $latestFile , $oldestDate;
 
 # -------------------------- #
